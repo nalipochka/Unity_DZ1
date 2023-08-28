@@ -6,7 +6,7 @@ public class WitcherMove : MonoBehaviour
 {
     Rigidbody2D rb;
     float speed = 60f;
-    float jumpPower = 500f;
+    float jumpPower = 2500f;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
